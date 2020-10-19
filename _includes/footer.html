@@ -58,8 +58,8 @@
                         </a>
                     </li>
                     {% endif %}
-					
-					{% if site.jianshu_username %}
+    				
+    				{% if site.jianshu_username %}
                     <li>
                         <a target="_blank" href="http://www.jianshu.com/u/{{ site.jianshu_username }}">
                             <span class="fa-stack fa-lg">
@@ -69,7 +69,7 @@
                         </a>
                     </li>
                     {% endif %}
-					
+    				
                     {% if site.github_username %}
                     <li>
                         <a target="_blank" href="https://github.com/{{ site.github_username }}">
@@ -94,11 +94,11 @@
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                          powered by <a href="http://wblearn.github.io/">wblearn</a> 
+                          powered by <a href="http://dust3t.github.io/">DUST</a> 
                     <!--<iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=wblearn&repo=wblearn.github.io&type=star&count=true" >
+                        src="https://ghbtns.com/github-btn.html?user=DUST&repo=dust3t.github.io&type=star&count=true" >
                     </iframe>-->
                 </p>
             </div>
@@ -196,7 +196,7 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
+    
     ga('create', _gaId, _gaDomain);
     ga('send', 'pageview');
 </script>
@@ -240,13 +240,13 @@
     }
 
     generateCatalog(".catalog-body");
-
+    
     // toggle side catalog
     $(".catalog-toggle").click((function(e){
         e.preventDefault();
         $('.side-catalog').toggleClass("fold")
     }))
-
+    
     /*
      * Doc: https://github.com/davist11/jQuery-One-Page-Nav
      * Fork by wblearn to support padding

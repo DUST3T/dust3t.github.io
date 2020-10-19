@@ -1,7 +1,7 @@
 # Site settings
 title: DUST Blog
 SEOTitle: DUST的博客 | DUST Blog
-header-img: home_1.jpg
+header-img: img/home_1.jpg
 email: 553669074@qq.com
 description: "@DUST,不要让任何事情成为你不去学习的理由！"
 keyword: "DUST, @DUST, DUST的博客,DUST Blog, 博客, 个人网站, 互联网"
@@ -53,7 +53,7 @@ kramdown:
 # Duoshuo settings
 duoshuo_username: DUSTblog
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 
 # LiveRe setttings

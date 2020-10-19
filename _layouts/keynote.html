@@ -63,18 +63,18 @@ layout: default
             <div class="post-container
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1 ">
-
-				{{ content }}
-
+    
+    			{{ content }}
+    
                 <hr style="visibility: hidden;">
-
+    
                 {% if site.duoshuo_share && site.duoshuo_username %}
                 <!-- 多说 Share start -->
                 <div class="ds-share"
                     style="text-align: right"
                     data-thread-key="{{page.id}}" data-title="{{page.title}}"
                     data-images="{{ site.url }}{{site.baseurl}}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
-                    data-content="{{ content | strip_html | truncate:80 }} | wblearn Blog，@wblearn 的个人博客"
+                    data-content="{{ content | strip_html | truncate:80 }} | DUST Blog，@DUST 的个人博客"
                     data-url="{{site.url}}{{site.baseurl}}{{page.url}}">
                     <div class="ds-share-inline">
                       <style> 
@@ -126,24 +126,24 @@ layout: default
                 </div>
                 <!-- 多说评论框 end -->
                 {% endif %}
-
+    
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
                 <div class="comment">
                     <div id="disqus_thread" class="disqus-thread">
-
+    
                     </div>
                 </div>
                 <!-- disqus 评论框 end -->
                 {% endif %}
-
+    
             </div>
-
+    
             <!-- Sidebar Container -->
             <div class="sidebar-container
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1 ">
-
+    
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
@@ -160,7 +160,7 @@ layout: default
                     </div>
                 </section>
                 {% endif %}
-
+    
                 <!-- Friends Blog -->
                 {% if site.friends %}
                 <hr>
