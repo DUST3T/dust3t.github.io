@@ -1,9 +1,9 @@
 # Site settings
 title: DUST Blog
 SEOTitle: DUST的博客 | DUST Blog
-header-img: img/home_1.jpg
+header-img: img/home_header.jpg
 email: 553669074@qq.com
-description: "@DUST,知识的诱惑令我永不停歇，永不疲惫！"
+description: "@DUST,知识的诱惑令我永不停歇，永不疲惫"
 keyword: "DUST, @DUST, DUST的博客,DUST Blog, 博客, 个人网站, 互联网"
 url: "http://dust3t.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -72,7 +72,7 @@ duoshuo_share: false                     # set to false if you want to use Comme
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "知识的诱惑令我永不停歇，永不疲惫！"
+sidebar-about-description: "知识的诱惑令我永不停歇，永不疲惫"
 sidebar-avatar: /img/head_portrait_1.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
