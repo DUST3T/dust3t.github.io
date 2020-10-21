@@ -2,15 +2,15 @@
 layout:     post
 title:      "生活的智慧"
 date:       2020-10-19 00:00:00
-author:     "wblearn"
-header-img: "img/post-bg-alitrip.jpg"
+author:     "DUST"
+header-img: "img/post/post_life.jpg"
 tags:
     - 程序员
     - 闲谈
     - 
 ---
 
->本篇来源于Weblearn转载的垠神的[生活的智慧](http://www.yinwang.org/blog-cn/2017/07/08/living-philosophy)，觉得对生活有启迪转载于此（我只是改了下日期）: )
+>本篇来源于Weblearn转载的垠神的[生活的智慧](http://www.yinwang.org/blog-cn/2017/07/08/living-philosophy)，觉得对生活有启迪转载于此（我只是改了下日期）:  )
 
 <p>我曾经写过一篇文章，叫『<a href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy">编程的智慧</a>』。再加上我总写一些技术性的文章，不认识我的人可能还以为我是个技术狂人，只知道谈论技术，不会生活。其实跟我接触紧密的人都知道，我是一个很会生活的人。</p>
 
