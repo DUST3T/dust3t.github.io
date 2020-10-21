@@ -3,7 +3,7 @@ layout:     post
 title:      "生活的智慧"
 date:       2020-10-19 00:00:00
 author:     "DUST"
-header-img: "img/post/post_life.jpg"
+header-img: "img/post/life.jpg"
 tags:
     - 程序员
     - 闲谈
